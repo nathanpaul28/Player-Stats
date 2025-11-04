@@ -44,5 +44,3 @@ This project is perfect for **beginners in web development** who want to learn h
 
 ---
 
-## 🗂 Folder Structure
-
