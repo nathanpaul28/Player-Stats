@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cricket Player Stats</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Cricket Player Stats</h1>
+    <button id="darkModeToggle">🌙 Dark Mode</button>
+  </header>
+
+  <!-- Tabs for formats -->
+  <nav class="tabs">
+    <button class="tab active" data-format="test">Test</button>
+    <button class="tab" data-format="odi">ODI</button>
+    <button class="tab" data-format="t20">T20</button>
+  </nav>
+
+  <!-- Filters and Search -->
+  <section class="filters">
+    <input type="text" id="searchInput" placeholder="Search player by name..." />
+
+    <select id="roleFilter">
+      <option value="all">All Roles</option>
+      <option value="batsman">Batsman</option>
+      <option value="bowler">Bowler</option>
+      <option value="allrounder">All-Rounder</option>
+    </select>
+
+    <select id="countryFilter">
+      <option value="all">All Countries</option>
+      <option value="India">India 🇮🇳</option>
+      <option value="Australia">Australia 🇦🇺</option>
+      <option value="England">England 🏴</option>
+      <option value="Pakistan">Pakistan 🇵🇰</option>
+      <option value="New Zealand">New Zealand 🇳🇿</option>
+      <option value="Afghanistan">Afghanistan 🇦🇫</option>
+    </select>
+
+    <select id="sortFilter">
+      <option value="none">Sort By</option>
+      <option value="runs">Runs</option>
+      <option value="wickets">Wickets</option>
+      <option value="matches">Matches</option>
+    </select>
+  </section>
+
+  <!-- Player Cards -->
+  <section id="playerContainer" class="players"></section>
+
+  <!-- Dream XI Controls -->
+  <div class="dream-controls" style="text-align:center; margin:15px 0;">
+    <button id="buildDreamBtn" class="btn">🏆 Build Dream XI</button>
+    <select id="dreamFormat">
+      <option value="test">Test</option>
+      <option value="odi" selected>ODI</option>
+      <option value="t20">T20</option>
+    </select>
+  </div>
+
+  <footer>
+    <p>Built by Cricket Fans for Cricket Fans</p>
+  </footer>
+
+  <!-- Player Comparison Modal -->
+  <div id="compareModal" class="compare-modal hidden">
+    <div class="compare-content">
+      <span id="closeCompare">&times;</span>
+      <h2>Player Comparison</h2>
+      <div id="compareContainer" class="compare-container"></div>
+    </div>
+  </div>
+
+  <!-- Dream XI Modal -->
+  <div id="dreamModal" class="compare-modal hidden">
+    <div class="compare-content">
+      <span id="closeDream">&times;</span>
+      <h2>Dream XI</h2>
+      <div id="dreamContainer"></div>
+    </div>
+  </div>
+
+  <!-- ✅ Script should be last -->
+  <script src="script.js"></script>
+</body>
+</html>
