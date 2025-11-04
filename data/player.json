@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Virat Kohli",
+    "country": "India",
+    "role": "batsman",
+    "image": "https://i.imgur.com/UYiroys.jpg",
+    "stats": {
+      "test": { "matches": 123, "runs": 9230, "wickets": 0 },
+      "odi": { "matches": 305, "runs": 14255, "wickets": 5 },
+      "t20": { "matches": 125, "runs": 4188, "wickets": 4 }
+    }
+  },
+  {
+    "name": "Rohit Sharma",
+    "country": "India",
+    "role": "batsman",
+    "image": "https://i.imgur.com/cwBlhBJ.jpg",
+    "stats": {
+      "test": { "matches": 67, "runs": 4301, "wickets": 2 },
+      "odi": { "matches": 276, "runs": 11370, "wickets": 9 },
+      "t20": { "matches": 159, "runs": 4231, "wickets": 1 }
+    }
+  },
+  {
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "batsman",
+    "image": "https://i.imgur.com/kC9WqKH.jpg",
+    "stats": {
+      "test": { "matches": 61, "runs": 4366, "wickets": 2 },
+      "odi": { "matches": 134, "runs": 6291, "wickets": 1 },
+      "t20": { "matches": 131, "runs": 4302, "wickets": 0 }
+    }
+  },
+  {
+    "name": "Pat Cummins",
+    "country": "Australia",
+    "role": "bowler",
+    "image": "https://i.imgur.com/JSxvVRT.jpg",
+    "stats": {
+      "test": { "matches": 71, "runs": 1548, "wickets": 309 },
+      "odi": { "matches": 90, "runs": 537, "wickets": 143 },
+      "t20": { "matches": 57, "runs": 158, "wickets": 66 }
+    }
+  },
+  {
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "batsman",
+    "image": "https://i.imgur.com/xY4rI8A.jpg",
+    "stats": {
+      "test": { "matches": 105, "runs": 9276, "wickets": 30 },
+      "odi": { "matches": 175, "runs": 7257, "wickets": 37 },
+      "t20": { "matches": 93, "runs": 2575, "wickets": 6 }
+    }
+  },
+  {
+    "name": "Jos Buttler",
+    "country": "England",
+    "role": "wicket-keeper",
+    "image": "https://i.imgur.com/kJb1hRk.jpg",
+    "stats": {
+      "test": { "matches": 57, "runs": 2907, "wickets": 0 },
+      "odi": { "matches": 196, "runs": 5463, "wickets": 0 },
+      "t20": { "matches": 144, "runs": 3869, "wickets": 0 }
+    }
+  },
+  {
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "allrounder",
+    "image": "https://i.imgur.com/0F1vxEt.jpg",
+    "stats": {
+      "test": { "matches": 115, "runs": 7032, "wickets": 230 },
+      "odi": { "matches": 114, "runs": 3463, "wickets": 74 },
+      "t20": { "matches": 43, "runs": 585, "wickets": 26 }
+    }
+  },
+  {
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "bowler",
+    "image": "https://i.imgur.com/mwHSmMY.jpg",
+    "stats": {
+      "test": { "matches": 6, "runs": 154, "wickets": 45 },
+      "odi": { "matches": 117, "runs": 1393, "wickets": 210 },
+      "t20": { "matches": 108, "runs": 602, "wickets": 182 }
+    }
+  },
+  {
+    "name": "Steve Smith",
+    "country": "Australia",
+    "role": "batsman",
+    "image": "https://i.imgur.com/z7dQj9m.jpg",
+    "stats": {
+      "test": { "matches": 119, "runs": 10477, "wickets": 19 },
+      "odi": { "matches": 170, "runs": 5800, "wickets": 28 },
+      "t20": { "matches": 67, "runs": 1094, "wickets": 17 }
+    }
+  },
+  {
+    "name": "Anil Kumble",
+    "country": "India",
+    "role": "bowler",
+    "image": "https://i.imgur.com/YmT5L2v.jpg",
+    "stats": {
+      "test": { "matches": 132, "runs": 2506, "wickets": 619 },
+      "odi": { "matches": 271, "runs": 938, "wickets": 337 }
+    }
+  },
+  {
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "bowler",
+    "image": "https://i.imgur.com/sx6dCqT.jpg",
+    "stats": {
+      "test": { "matches": 50, "runs": 341, "wickets": 226 },
+      "odi": { "matches": 89, "runs": 91, "wickets": 149 },
+      "t20": { "matches": 78, "runs": 8, "wickets": 98 }
+    }
+  }
+]
